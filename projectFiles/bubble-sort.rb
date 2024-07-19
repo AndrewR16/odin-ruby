@@ -8,12 +8,9 @@ def bubble_sort(array)
   swaps = -1
   until swaps == 0
     swaps = 0
-    for i in 0..(array.length - 2)
+    (array.length - 1).times do |i|
       if array[i] > array[i + 1]
-        temp = array[i]
-        array[i] = array[i + 1]
-        array[i + 1] = temp
-
+        array[i], array[i + 1] = array[i + 1], array[i]
         swaps += 1
       end
     end
