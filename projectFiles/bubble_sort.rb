@@ -1,5 +1,5 @@
-def main()
-  array = [4,3,78,2,0,2]
+def main
+  array = [4, 3, 78, 2, 0, 2]
 
   p bubble_sort(array)
 end
@@ -19,4 +19,4 @@ def bubble_sort(array)
   array
 end
 
-main()
+main

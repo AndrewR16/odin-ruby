@@ -1,5 +1,5 @@
 def main
-  prices = [17,3,6,9,8,6,15,1,10]
+  prices = [17, 3, 6, 9, 8, 6, 15, 1, 10]
 
   p stock_picker(prices)
 end
@@ -20,4 +20,4 @@ def stock_picker(stock_prices)
   indexs
 end
 
-main()
+main
